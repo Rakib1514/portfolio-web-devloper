@@ -263,3 +263,154 @@ footer textarea {
 .contact-icon a {
     margin-right: 24px;
 }
+
+
+/* responsive desing */
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    nav {
+        margin: 0 50px;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 24px;
+    }
+
+    .banner-title {
+        font-size: 65px;
+    }
+
+    .banner-greetings {
+        font-size: 35px;
+    }
+
+    .banner-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .about {
+        padding: 100px 50px;
+    }
+
+    .about-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-title {
+        font-size: 35px;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav li a {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-description {
+        font-size: 16px;
+    }
+
+    .btn-primary {
+        padding: 12px 25px;
+        font-size: 18px;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .banner-greetings {
+        font-size: 25px;
+    }
+
+    .about {
+        padding: 50px 20px;
+    }
+
+    .about-items {
+        gap: 20px;
+    }
+
+    footer input[type="text"], footer input[type="email"] {
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-title {
+        font-size: 25px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+
+    .banner-title {
+        font-size: 35px;
+    }
+
+    .banner-greetings {
+        font-size: 20px;
+    }
+
+    .about {
+        padding: 30px 10px;
+    }
+
+    .skills-container {
+        gap: 10px;
+    }
+
+    footer {
+        padding: 30px 10px;
+    }
+
+    footer input[type="text"], footer input[type="email"] {
+        height: 40px;
+    }
+}
